@@ -20,13 +20,15 @@ Personal messages: Used to extract the list and count of gifted crates.
 - **Extraction from Message Logs:** Employed text parsing techniques to sift through messages and identify patterns indicating crate names and quantities. Utilized Python's string manipulation and data structures like dictionaries for efficient counting.
 ### 3. Data Analysis:
 - Merged the data from the two sources.
-- Calculated the total value of the gifted crates by matching crate names and quantities with their respective prices.
+- Utilized VLOOKUP to fetch crate prices based on their names and combined this with the quantity data to calculate individual crate values.
+- Employed Excel's error handling using IFERROR to ensure data integrity during calculations.
+- Summed up the total value of all gifted crates for the final result.
 
 ## Tools and Technologies:
 - Python: Primary programming language used for data extraction, processing, and analysis.
 - BeautifulSoup: Used for web scraping.
 - Jupyter Notebook: Used for iterative development and data analysis.
-- Excel: Used for data storage and final calculations.
+- Excel: Used for data storage, merging, and performing calculations, leveraging advanced functions like VLOOKUP and IFERROR.
 
 ## Key Files:
 - CSGO_Cases.html: Source HTML file from the CSGO Database.
