@@ -11,14 +11,14 @@ CSGO Database: Web scraped to obtain crate names, release dates, and current pri
 Personal messages: Used to extract the list and count of gifted crates.
 
 ## Workflow:
-1. Data Collection:
+### 1. Data Collection:
 - Downloaded the CSGO Database website.
 - Read the personal message history to retrieve the list of gifted crates.
-2. Data Extraction and Processing:
+### 2. Data Extraction and Processing:
 - **Web Scraping:** Used the beautifulsoup4 library to parse the HTML content of the CSGO Database and extracted the required data (crate name, price, release date).
 - **Text Processing:** Processed the personal messages to count the occurrence of each crate.
 - **Extraction from Message Logs:** Employed text parsing techniques to sift through messages and identify patterns indicating crate names and quantities. Utilized Python's string manipulation and data structures like dictionaries for efficient counting.
-3. Data Analysis:
+### 3. Data Analysis:
 - Merged the data from the two sources.
 - Calculated the total value of the gifted crates by matching crate names and quantities with their respective prices.
 
