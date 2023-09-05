@@ -1,5 +1,4 @@
-# CS_Crates
-Counter-Strike Crate Valuation Analysis
+# Counter-Strike Crate Valuation Analysis
 
 ## Objective:
 Help a friend calculate the total value of Counter-Strike crates given to another person.
