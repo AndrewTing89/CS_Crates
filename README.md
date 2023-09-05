@@ -7,8 +7,8 @@ Help a friend calculate the total value of Counter-Strike crates given to anothe
 In this project, I assisted a friend in calculating the total value of gifted Counter-Strike crates. Using Python and BeautifulSoup, I web scraped the CSGO Database to fetch crate details like names, prices, and release dates. Additionally, I employed text parsing techniques to extract and quantify crate data from raw personal message logs. The extracted data was then merged, processed, and analyzed to determine the total value of the gifted crates. Tools used include Python, BeautifulSoup, Jupyter Notebook, and Excel.
 
 ## Data Sources:
-CSGO Database: Web scraped to obtain crate names, release dates, and current prices.
-Personal messages: Used to extract the list and count of gifted crates.
+- CSGO Database: Web scraped to obtain crate names, release dates, and current prices.
+- Personal messages: Used to extract the list and count of gifted crates.
 
 ## Workflow:
 ### 1. Data Collection:
